@@ -20,30 +20,32 @@ export default function Header() {
         />
 
         <nav className='hidden md:flex items-center gap-6'>
-          <MenuLink href='#' label='Sobre' />
-          <MenuLink href='#experience' label='Experiência' />
-          <MenuLink href='#contact' label='Contato' />
-          {/* <MenuLink href='/blog' label='Blog' /> */}
+          <MenuLink href='/#' label='Sobre' />
+          <MenuLink href='/#experience' label='Experiência' />
+          <MenuLink href='/#contact' label='Contato' />
+          <MenuLink href='/blog' label='Blog' />
         </nav>
 
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className='md:hidden text-violet-400 hover:text-white transition duration-300'
-        >
-          {menuOpen ? (
-            <Image src={'/x.png'} alt='close menu' width={28} height={28} />
-          ) : (
-            <Image src={'/menu.png'} alt='open menu' width={28} height={28} />
-          )}
-        </button>
-        <ThemeToggle />
+        <div className='flex items-center gap-4 '>
+          <ThemeToggle />
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className='md:hidden text-violet-400 hover:text-white transition duration-300'
+          >
+            {menuOpen ? (
+              <Image src={'/x.png'} alt='close menu' width={28} height={28} />
+            ) : (
+              <Image src={'/menu.png'} alt='open menu' width={28} height={28} />
+            )}
+          </button>
+        </div>
       </div>
       {menuOpen && (
         <nav className='md:hidden flex flex-col items-center gap-4 bg-gray-900 border-t border-violet-800 py-4'>
           <MenuLink href='#' label='Sobre' />
           <MenuLink href='#experience' label='Experiência' />
           <MenuLink href='#contact' label='Contato' />
-          {/* <MenuLink href='#home' label='Blog' /> */}
+          <MenuLink href='#home' label='Blog' />
         </nav>
       )}
     </header>

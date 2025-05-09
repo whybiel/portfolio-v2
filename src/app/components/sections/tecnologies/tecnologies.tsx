@@ -50,7 +50,7 @@ export default function Tecnologies() {
   return (
     <section
       id='tecnologies'
-      className='max-w-4xl mr-auto ml-auto mt-24 min-h-dvh '
+      className='max-w-4xl mr-auto ml-auto mt-24  mb-44'
       data-aos='fade-up'
     >
       <span className='flex items-center justify-center gap-2 mb-4'>
