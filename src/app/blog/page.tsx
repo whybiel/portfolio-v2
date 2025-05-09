@@ -1,30 +1,12 @@
+ 
 import Link from "next/link"
-
-const DEVTO_USERNAME = 'gabs_xd'
+import { getArticles } from "../lib/getArticles"
+import { Article } from "./[id]/types"
 
 export const revalidate = 3600
 
-interface Article {
-  id: number
-  title: string
-  description: string
-  published_at: string
-  slug: string
-  url: string
-}
-
-
-export async function getArticles(slug:string) {
-  const response = await fetch(`https://dev.to/api/articles?username=${slug}`)
-  const articles = await response.json()
-  console.log(articles)
-  return articles
-}
-
-
 export default async function BlogPage() {
-  const articles = await getArticles(DEVTO_USERNAME)
-  console.log(articles)
+  const articles = await getArticles()
 
   return (
     <main className='max-w-4xl mx-auto p-6'>
