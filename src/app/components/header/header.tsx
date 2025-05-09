@@ -42,9 +42,9 @@ export default function Header() {
       </div>
       {menuOpen && (
         <nav className='md:hidden flex flex-col items-center gap-4 bg-gray-900 border-t border-violet-800 py-4'>
-          <MenuLink href='#' label='Sobre' />
-          <MenuLink href='#experience' label='Experiência' />
-          <MenuLink href='#contact' label='Contato' />
+          <MenuLink href='/#' label='Sobre' />
+          <MenuLink href='/#experience' label='Experiência' />
+          <MenuLink href='/#contact' label='Contato' />
           <MenuLink href='/blog' label='Blog' />
         </nav>
       )}
