@@ -45,7 +45,7 @@ export default function Header() {
           <MenuLink href='#' label='Sobre' />
           <MenuLink href='#experience' label='Experiência' />
           <MenuLink href='#contact' label='Contato' />
-          <MenuLink href='#home' label='Blog' />
+          <MenuLink href='/blog' label='Blog' />
         </nav>
       )}
     </header>
