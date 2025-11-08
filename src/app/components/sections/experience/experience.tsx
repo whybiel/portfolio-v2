@@ -8,12 +8,25 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
-    cargo: 'Desenvolvedor Front-End Jnr. I | 1STi',
-    periodo: 'jul 2022 - set 2023',
+    cargo: 'Desenvolvedor Front-End Pleno | Dadoteca',
+    periodo: 'ago 2025 - momento',
     responsabilidades: [
-      'Participei da criação de um projeto para o Centro Cirúrgico de um hospital de referência na América Latina.',
-      'Colaborei na criação de formulários com validações personalizadas, integrações com APIs e adaptação de Design Systems.',
-      'Tecnologias utilizadas: JavaScript, ReactJS, Styled Components, Redux.'
+      'Liderou o desenvolvimento Front-End em produtos internos, implementando dashboards interativos, chats em tempo real e autenticação com JWT.',
+      'Otimizou a performance de aplicações com code splitting e lazy loading, reduzindo o tempo de carregamento e aumentando a responsividade.',
+      'Implementou testes automatizados com Cypress e realizou análises de SEO em sites legados, aprimorando a visibilidade e a manutenção.',
+      'Conduziu refatorações de projetos em HTML para ReactJS, padronizando código e melhorando a escalabilidade.',
+      'Ofereceu mentoria sobre ReactJS para colaboradores de Power Apps, promovendo o desenvolvimento técnico da equipe.',
+      'Tecnologias: ReactJS, TypeScript, Cypress, JWT, TailwindCSS, SEO, Vite, APIs REST, React Hook Form, Zod'
+    ]
+  },
+  {
+    cargo: 'Desenvolvedor Front-End Pleno | 1STi',
+    periodo: 'ago 2024 - jul 2025',
+    responsabilidades: [
+      'Foco na solidificação das minhas habilidades técnicas e interpessoais, aprimorando minha comunicação e domínio das linguagens utilizadas no dia a dia.',
+      'Contribuo para a criação de componentes de formulário integrados com React Hook Form e Zod, otimizando a eficiência do produto e eliminando validações manuais repetitivas.',
+      'Auxilio na integração de desenvolvedores juniores ao produto, apresentando a história, estrutura do código e boas práticas para manter um alto padrão de qualidade.',
+      'Tecnologias utilizadas: JavaScript, ReactJS, Cypress, Zustand, TypeScript, Azure DevOps'
     ]
   },
   {
@@ -27,15 +40,15 @@ const experiences: ExperienceItem[] = [
     ]
   },
   {
-    cargo: 'Desenvolvedor Front-End Pleno | 1STi',
-    periodo: 'ago 2024 - moment',
+    cargo: 'Desenvolvedor Front-End Jnr. I | 1STi',
+    periodo: 'jul 2022 - set 2023',
     responsabilidades: [
-      'Foco na solidificação das minhas habilidades técnicas e interpessoais, aprimorando minha comunicação e domínio das linguagens utilizadas no dia a dia.',
-      'Contribuo para a criação de componentes de formulário integrados com React Hook Form e Zod, otimizando a eficiência do produto e eliminando validações manuais repetitivas.',
-      'Auxilio na integração de desenvolvedores juniores ao produto, apresentando a história, estrutura do código e boas práticas para manter um alto padrão de qualidade.',
-      'Tecnologias utilizadas: JavaScript, ReactJS, Cypress, Zustand, TypeScript, Azure DevOps'
+      'Participei da criação de um projeto para o Centro Cirúrgico de um hospital de referência na América Latina.',
+      'Colaborei na criação de formulários com validações personalizadas, integrações com APIs e adaptação de Design Systems.',
+      'Tecnologias utilizadas: JavaScript, ReactJS, Styled Components, Redux.'
     ]
   }
+  
 ]
 
 export default function Experience() {

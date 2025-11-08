@@ -6,6 +6,7 @@ import About from './components/sections/about/about'
 import Contacts from './components/sections/contacts/contacts'
 import Experience from './components/sections/experience/experience'
 import Tecnologies from './components/sections/tecnologies/tecnologies'
+import Projects from './components/sections/projects/projects'
 import AOSInitializer from './components/AOS/aosInitialazer'
 import Footer from './components/footer/footer'
 
@@ -17,8 +18,9 @@ export default function Home() {
       <main className='mt-16'>
         <AOSInitializer />
         <About />
-        <Tecnologies />
         <Experience />
+        <Tecnologies />
+        <Projects />
         <Contacts />
       </main>
       <Footer/>

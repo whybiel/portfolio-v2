@@ -68,19 +68,13 @@ export default function About() {
           <h2 className='text-4xl text-center'>Sobre Mim</h2>
         </span>
         <p className='text-justify'>
-          Sou Gabriel Henrique, desenvolvedor Front-end com mais de 2 anos de
-          experiência, apaixonado por criar interfaces modernas, acessíveis e
-          funcionais. Atualmente, atuo como Desenvolvedor Pleno na 1STi, onde
-          contribuo para o desenvolvimento de soluções web voltadas à área da
-          saúde, utilizando ReactJS, TypeScript, Cypress e outras tecnologias
-          modernas.
+          Sou Gabriel Henrique, desenvolvedor Front-end apaixonado por transformar ideias em interfaces intuitivas, acessíveis e de alta performance. Gosto de unir design e tecnologia para criar experiências digitais que realmente façam sentido para o usuário.
         </p>
         <p className='mt-4 text-justify'>
-          Tenho experiência sólida em arquitetura Front-end, construção de
-          componentes reutilizáveis e testes automatizados. Prezo por código
-          limpo, boas práticas e colaboração entre times. Também valorizo o
-          aprendizado contínuo, buscando constantemente aprimorar tanto minhas
-          habilidades técnicas quanto interpessoais.
+          Tenho experiência em arquitetura front-end, componentização e testes automatizados, sempre com foco em qualidade, escalabilidade e boas práticas. Valorizo a colaboração entre equipes, o código limpo e o aprendizado contínuo — acreditando que evoluir como profissional também é evoluir como pessoa.
+        </p>
+        <p className='mt-4 text-justify'>
+          Fora do código, sou uma pessoa curiosa, comunicativa e com forte senso de responsabilidade. Gosto de entender o propósito por trás de cada projeto e contribuir de forma colaborativa para alcançar resultados reais. Acredito em empatia, transparência e na importância de construir ambientes de trabalho onde confiança e respeito sejam tão valorizados quanto a técnica.
         </p>
       </div>
     </section>

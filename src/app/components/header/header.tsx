@@ -22,6 +22,7 @@ export default function Header() {
         <nav className='hidden md:flex items-center gap-6'>
           <MenuLink href='/#' label='Sobre' />
           <MenuLink href='/#experience' label='Experiência' />
+          <MenuLink href='/#projects' label='Projetos' />
           <MenuLink href='/#contact' label='Contato' />
           <MenuLink href='/blog' label='Blog' />
         </nav>
@@ -44,6 +45,7 @@ export default function Header() {
         <nav className='md:hidden flex flex-col items-center gap-4 bg-gray-900 border-t border-violet-800 py-4'>
           <MenuLink href='/#' label='Sobre' />
           <MenuLink href='/#experience' label='Experiência' />
+          <MenuLink href='/#projects' label='Projetos' />
           <MenuLink href='/#contact' label='Contato' />
           <MenuLink href='/blog' label='Blog' />
         </nav>
